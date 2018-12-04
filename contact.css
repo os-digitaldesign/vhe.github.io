@@ -86,6 +86,10 @@ input, #subject {
   background:none!important;
   border-radius: 4px;
 }
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
 
 @media  (max-width: 580px) {
  .body-container{
