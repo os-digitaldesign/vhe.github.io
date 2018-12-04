@@ -6,6 +6,11 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.logo-image {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
 
 .slider-box {
   height: auto;
@@ -35,6 +40,10 @@
   width: 30px;
   height: 30px;
   cursor: pointer;
+}
+
+em {
+  padding-right: 5px;
 }
 
 .mySlides {
