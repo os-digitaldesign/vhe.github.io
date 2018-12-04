@@ -59,6 +59,10 @@ h5 {
 
 /* Media */
 @media  (max-width: 580px) {
+  footer {
+    width: auto;
+    margin: auto;
+  }
   .footer-conatiner {
     flex-direction: column;
   }
