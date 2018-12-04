@@ -1,0 +1,12 @@
+.main-heading {
+  text-align: center;
+  color: var(--orange);
+
+  border-bottom: 1px solid var(--orange);
+  line-height: 0;
+  padding: 0;
+}
+.main-heading span {
+  padding: 0 15px;
+  background-color:#1768AC;
+}

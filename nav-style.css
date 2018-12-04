@@ -1,0 +1,64 @@
+* {
+box-sizing: border-box;
+  }
+
+body {
+  background-image: linear-gradient(#0d324d, #1768AC);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Chakra Petch';
+}
+
+.main-nav-ul{
+  width: 100vw;
+  margin: auto;
+  margin-left: 0;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+.list-item {
+  color: white;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  text-decoration: line-through;
+}
+  
+.home {
+  list-style: none;
+  position: fixed;
+  top: 15px;
+  text-align: center;
+  left: 50vw;
+  text-decoration: none;
+}
+  
+.about {
+  position: fixed;
+  transform: rotate(-90deg);
+  left: 0;
+  margin: auto;
+  text-decoration: none;
+  top: 50vh;
+}
+  
+  
+.contact{
+    position: fixed;
+    transform: rotate(90deg);
+    right: 0;
+    margin: auto;
+    text-decoration: none;
+    top: 50vh;
+}
+
+.active {
+  text-decoration: line-through;
+  margin: auto;
+}
+
+

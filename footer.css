@@ -1,0 +1,81 @@
+/* FOOTER */
+:root {
+  --orange: #F97218;
+  --darkblue: #1768AC; 
+  --deepblue #0d324d;
+  --white: #fff;
+  --smallTtitle: 22px;
+  --smallBody: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Chakra Petch';
+}
+
+footer {
+  width: 100vw;
+  height: auto;
+  padding: 20px;
+  background-color: #1768AC;
+  border-top: 1px solid var(--orange);
+  margin-top: 20px;
+}
+
+.footer-conatiner {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+
+h5 {
+  color: var(--orange);
+  font-size: var(--smallTtitle);
+  text-align: center;
+}
+.contact-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.socila-box{
+  width: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+.contact-box p {
+  color: var(--white);
+  font-size: var(--smallBody);
+  text-align: center;
+}
+
+
+
+/* Media */
+@media  (max-width: 580px) {
+  .footer-conatiner {
+    flex-direction: column;
+  }
+
+  /* CONTACT PAGE */
+  .contact-container {
+    flex-direction: column;
+  }
+  .contact-request {
+    width: 100%;
+  }
+
+  .mainName-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .mainName-title {
+    margin: 10px;
+  }
+}
