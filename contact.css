@@ -79,6 +79,18 @@ input, #subject {
   background-color: grey;
 }
 
+.mapouter {
+  margin: auto;
+  width: 90%;
+  height: 360px;
+}
+
+#gmap_canvas {
+  overflow: hidden;
+  background:none!important;
+  border-radius: 4px;
+}
+
 @media  (max-width: 580px) {
  .body-container{
     width: 90%;

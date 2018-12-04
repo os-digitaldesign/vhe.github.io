@@ -21,7 +21,8 @@
    display: block;
    top: 50%;
    margin: -8% 0 0 5%;
-   position: fixed;
+  
+  position: absolute;
  }
  
  .animation-container svg .text {
@@ -81,4 +82,10 @@
    color: white;
    font-size: 40px;
    font-weight: 200;
+ }
+
+ @media  (max-width: 580px) { 
+  .mainName-container  {
+    top: 400px;
+  }
  }
