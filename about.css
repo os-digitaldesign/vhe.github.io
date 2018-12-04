@@ -95,9 +95,9 @@
   flex-wrap: wrap;
 }
 
-.activated {
+/*.activated {
   border: 2px solid var(--orange);
-}
+} */
 
 .name-title {
   border-bottom: 1px solid var(--orange);

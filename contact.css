@@ -17,7 +17,8 @@ input, #subject {
   border-radius: 4px;
   margin-bottom: 20px;
   border: none;
-  font-size: 18px;
+  font-size: 12px;
+  color: white;
 }
 ::-webkit-input-placeholder {
   color: white;
